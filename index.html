@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComicBoxd - Track, Review & Discover Comics</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- comic-page-style -->
+    <!-- Custom styles -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .comic-card:hover .comic-hover-details {
+        opacity: 1;
+      }
+      .rating-stars .active {
+        color: #fcd34d;
+      }
+    </style>
+
+    <!-- Tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cbrand: {
+                50: "#ffffff", // Pure white
+                100: "#f5f5f5", // Nearly white
+                200: "#e5e5e5", // Very light
+                300: "#d4d4d4", // Light
+                400: "#a3a3a3", // Medium light
+                500: "#737373", // Medium
+                600: "#525252", // Medium dark
+                700: "#404040", // Dark
+                800: "#262626", // Very dark
+                900: "#171717", // Nearly black
+                1000: "#ef4331", // red
+                1001: "#fef200", // yellow
+                1002: "#02bcf4", // light blue
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <script type="module" crossorigin src="/assets/index-CyGUFvc1.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-XBUpkOrL.css">
+  </head>
+  <body class="bg-black text-white">
+    <div id="root"></div>
+  </body>
+</html>
