@@ -9,7 +9,7 @@ function NavBar() {
             <div className="flex-shrink-0">
               <a href="/" className="home-link flex items-center">
                 <img
-                  src="Images/Cesare.png"
+                  src="/Images/Cesare.png"
                   alt="ComicBoxd Logo Cesare"
                   className="h-11 w-auto mr-2"
                 />
