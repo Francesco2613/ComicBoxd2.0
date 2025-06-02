@@ -1,0 +1,6 @@
+.get-started {
+  background-image: url("/Images/bonelli_bg.jpg");
+  background-size: cover; /* Optional: makes sure it covers the area */
+  background-position: center; /* Optional: centers the image */
+  background-repeat: no-repeat; /* Optional: prevents tiling */
+}
